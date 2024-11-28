@@ -1,32 +1,12 @@
-//
-//  Pdf_MergeApp.swift
-//  Pdf Merge
-//
-//  Created by Ahmet Bostancıklıoğlu on 27.11.2024.
-//
-
 import SwiftUI
 import SwiftData
 
 @main
 struct PdfMergeApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PdfMergeView()
+                .modelContainer(for: [Document.self])
         }
-        .modelContainer(sharedModelContainer)
     }
 }
