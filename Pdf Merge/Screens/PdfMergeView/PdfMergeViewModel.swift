@@ -22,7 +22,7 @@ class PdfMergeViewModel: ObservableObject {
                 let context = ModelContext(container)
                 let pdfMerger = PDFMerger()
                 if let mergedPdfURL = pdfMerger.merge(documents: self.documents) {
-                    let mergedDocument = Document(name: "MergedFile.pdf",
+                    let mergedDocument = Document(name: "MergedFile_\(self.documents.count).pdf",
                                                   pages: self.calculatePageCount(from: mergedPdfURL),
                                                   url: mergedPdfURL)
                     
