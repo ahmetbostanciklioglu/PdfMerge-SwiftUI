@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct Pdf_MergeApp: App {
+struct PdfMergeApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
