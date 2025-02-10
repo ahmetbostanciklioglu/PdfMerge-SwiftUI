@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		2AD8605A2CF74CB400BDA3C9 /* Pdf Merge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pdf Merge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD8605A2CF74CB400BDA3C9 /* PDF Merger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDF Merger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2AD8605C2CF74CB400BDA3C9 /* Pdf Merge */ = {
+		2AD8605C2CF74CB400BDA3C9 /* PDF Merger */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Pdf Merge";
+			path = "PDF Merger";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		2AD860512CF74CB400BDA3C9 = {
 			isa = PBXGroup;
 			children = (
-				2AD8605C2CF74CB400BDA3C9 /* Pdf Merge */,
+				2AD8605C2CF74CB400BDA3C9 /* PDF Merger */,
 				2AD8605B2CF74CB400BDA3C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		2AD8605B2CF74CB400BDA3C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AD8605A2CF74CB400BDA3C9 /* Pdf Merge.app */,
+				2AD8605A2CF74CB400BDA3C9 /* PDF Merger.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2AD860592CF74CB400BDA3C9 /* Pdf Merge */ = {
+		2AD860592CF74CB400BDA3C9 /* PDF Merger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AD8606A2CF74CB600BDA3C9 /* Build configuration list for PBXNativeTarget "Pdf Merge" */;
+			buildConfigurationList = 2AD8606A2CF74CB600BDA3C9 /* Build configuration list for PBXNativeTarget "PDF Merger" */;
 			buildPhases = (
 				2AD860562CF74CB400BDA3C9 /* Sources */,
 				2AD860572CF74CB400BDA3C9 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2AD8605C2CF74CB400BDA3C9 /* Pdf Merge */,
+				2AD8605C2CF74CB400BDA3C9 /* PDF Merger */,
 			);
-			name = "Pdf Merge";
+			name = "PDF Merger";
 			packageProductDependencies = (
 			);
 			productName = "Pdf Merge";
-			productReference = 2AD8605A2CF74CB400BDA3C9 /* Pdf Merge.app */;
+			productReference = 2AD8605A2CF74CB400BDA3C9 /* PDF Merger.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2AD860552CF74CB400BDA3C9 /* Build configuration list for PBXProject "Pdf Merge" */;
+			buildConfigurationList = 2AD860552CF74CB400BDA3C9 /* Build configuration list for PBXProject "PDF Merger" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2AD860592CF74CB400BDA3C9 /* Pdf Merge */,
+				2AD860592CF74CB400BDA3C9 /* PDF Merger */,
 			);
 		};
 /* End PBXProject section */
@@ -251,15 +251,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Pdf Merge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PDF Merger/Preview Content\"";
 				DEVELOPMENT_TEAM = 8D9TX8C5HD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "PDF Merger";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,15 +287,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Pdf Merge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PDF Merger/Preview Content\"";
 				DEVELOPMENT_TEAM = 8D9TX8C5HD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "PDF Merger";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2AD860552CF74CB400BDA3C9 /* Build configuration list for PBXProject "Pdf Merge" */ = {
+		2AD860552CF74CB400BDA3C9 /* Build configuration list for PBXProject "PDF Merger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AD860682CF74CB600BDA3C9 /* Debug */,
@@ -322,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AD8606A2CF74CB600BDA3C9 /* Build configuration list for PBXNativeTarget "Pdf Merge" */ = {
+		2AD8606A2CF74CB600BDA3C9 /* Build configuration list for PBXNativeTarget "PDF Merger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AD8606B2CF74CB600BDA3C9 /* Debug */,

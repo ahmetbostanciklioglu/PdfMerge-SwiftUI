@@ -2,7 +2,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct PdfMergeApp: App {
+struct PDFMergerApp: App {
     var body: some Scene {
         WindowGroup {
             PdfMergeView()
